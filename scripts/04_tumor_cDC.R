@@ -259,13 +259,17 @@ expr_matrix <- as.matrix(seu_cdc@assays$RNA@data)
 
 gsva_results <- gsva(
   expr          = expr_matrix,
-  gset.idx.list = genesets[pathways_of_interest],
+  gset.idx.list = genesets,
   kcdf          = "Gaussian",
   method        = "gsva"
 )
 
 gsva_by_cell <- as.data.frame(t(gsva_results))   # cells x pathways
 gsva_by_cell$cell_type <- seu_cdc$fine_cell_type
+
+pathways_of_interest <- c(
+  "GOBP_DENDRITIC_CELL_ANTIGEN_PROCESSING_AND_PRESENTATION"
+)
 
 # keep POIs and convert to long
 gsva_by_cell_sub <- gsva_by_cell[, c(pathways_of_interest, "cell_type")]
