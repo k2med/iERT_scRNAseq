@@ -12,7 +12,7 @@ Bulky tumors remain challenging to treat, and combining immune checkpoint inhibi
 ## Description
 This repo contains scripts and source data to replicate results of our current study.
 - Publication: *TBD*
-- scRNAseq data: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16936464.svg)](https://doi.org/10.5281/zenodo.16936464)
+- scRNAseq data: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17662223.svg)](https://doi.org/10.5281/zenodo.17662223)
 
 
 
