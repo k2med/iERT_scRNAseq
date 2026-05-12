@@ -9,8 +9,8 @@
 # Outputs:
 #   - Fig.S6E.pdf                        (Bubble plot for NK - cDC interactions)
 #   - Fig.S6F.pdf                        (Bubble plot for cDC - CD8 T interactions)
-#   - Fig6E_dotplot_source_data.txt      (Source data for Fig.S6E)
-#   - Fig6F_dotplot_source_data.txt      (Source data for Fig.S6F)
+#   - FigS6E_dotplot_source_data.txt      (Source data for Fig.S6E)
+#   - FigS6F_dotplot_source_data.txt      (Source data for Fig.S6F)
 # ---------------------------
 
 # Packages
