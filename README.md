@@ -11,7 +11,7 @@ Bulky tumors remain challenging to treat, and combining immune checkpoint inhibi
 
 ## Description
 This repo contains scripts and source data to replicate results of our current study.
-- Publication: *TBD*
+- Publication: Luo R, Yu M, Kang K, Zhang Y, et al. *SBRT embedded in low-dose RT plus αPD-1 (immuno-EclipseRT, iERT) elicits CD8+ T cell immunity against bulky tumors via an IFN-I/NK/DC axis*. *Nature Communications* (2026). [DOI](https://doi.org/10.1038/s41467-026-73683-z)
 - scRNAseq data: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17662223.svg)](https://doi.org/10.5281/zenodo.17662223)
 
 
